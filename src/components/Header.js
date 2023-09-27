@@ -1,6 +1,7 @@
 import { LOGO_URL } from "../utils/constants";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import company from "./company.jpg";
 
 // Header Component
 const Header = () => {
@@ -11,8 +12,9 @@ const Header = () => {
     <div className="header">
       <div className="logo-container">
         <img className="logo" src={LOGO_URL}></img>
+        <img className="company-name" src={company}></img>
       </div>
-
+      <div></div>
       <div className="nav-items">
         <ul>
           <li>
