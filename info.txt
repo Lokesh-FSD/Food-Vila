@@ -1,0 +1,11 @@
+Header
+  -logo
+  -nav-items
+Body
+  -Search
+  -Restaurant container
+    -img
+    -NAme of Res, Star Rating ,cusine, delivery time
+Footer
+  -compyright
+  -Links 
